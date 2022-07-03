@@ -1,0 +1,178 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+/* here first block*/
+.first {
+    background-color: #5517e6;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: cursive;
+    padding: 300px 0px 0px 150px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: darkgoldenrod;
+}
+
+.ideas {
+    padding: 50px 0px 0px 150px;
+    color: white;
+    font-weight: 400;
+    font-size: 150px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+
+.photos {
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.photos img {
+    width: 80%;
+}
+
+/* end of first block*/
+.second {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: white;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+
+
+.yellowarea {
+    width: 100px;
+    height: 5px;
+    padding: 20px 0px 0px 30px;
+    background-color: goldenrod;
+}
+
+.aboutsus {
+    height: 50%;
+    width: 80%;
+    margin: 40px 30px 20px 30px;
+    background-color: black;
+    color: white;
+    padding: 60px 0px 0px 50px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.textarea {
+    color: gray;
+    font-size: 22px;
+    margin: 100px 80px 20px 30px;
+}
+
+.violetshit {
+    width: 100px;
+    height: 5px;
+    padding: 20px 0px 0px 30px;
+    background-color: blueviolet;
+}
+
+.textfish {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 50px 70px 10px 70px;
+}
