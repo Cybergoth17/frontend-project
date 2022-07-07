@@ -92,7 +92,7 @@ h6 {
 /* here first block*/
 .first {
     background-color: #5517e6;
-    height: 580px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -129,7 +129,7 @@ h6 {
 .second {
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    padding: 0px 0px 50px 0px;
     background-color: white;
 }
 
@@ -179,7 +179,7 @@ h6 {
 
 /*third block div*/
 .third {
-    height: 800px;
+    padding: 50px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -262,7 +262,7 @@ h6 {
 
 /*forth div block*/
 .forth {
-    height: 450px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -294,8 +294,8 @@ h6 {
 .i {
     background-color: rgb(79, 26, 165);
     margin: 70px 0px 0px 80px;
-    width: 500px;
-    height: 200px;
+    width: 70%;
+    padding: 0px 0px 50px 0px;
 }
 
 .app {
@@ -311,4 +311,43 @@ h6 {
     font-size: 25px;
     margin: 30px 100px 0px 80px;
     text-align: right;
+}
+
+/*fifth div*/
+.fifth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ll {
+    background-color: black;
+    width: 50%;
+    padding: 100px;
+}
+
+.rr {
+    background-color: orange;
+    width: 50%;
+    padding: 100px;
+}
+
+.textt {
+    color: white;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textt1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textt2 {
+    color: white;
+    font-size: 15px;
 }
