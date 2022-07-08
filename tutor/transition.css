@@ -1,0 +1,34 @@
+.content {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    background-color: darkmagenta;
+    box-shadow: 0 15px 0px darkorchid;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    top: 4px;
+    width: 280px;
+    height: 130px;
+    background-color: aqua;
+    box-shadow: 0 7px 0px darkslateblue;
+}
