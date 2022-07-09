@@ -1,0 +1,75 @@
+.trans {
+    margin: 50px 0px 0px 100px;
+    width: 200px;
+    height: 200px;
+    background-color: palegreen;
+    transition-duration: 1s;
+}
+
+.trans:hover {
+    transform: translate(50px, 50px);
+    background-color: yellowgreen;
+}
+
+.trans p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px;
+}
+
+.trans1 {
+    margin: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: palegreen;
+    transition-duration: 1s;
+}
+
+.trans1:hover {
+    transform: scale(2, 2);
+    background-color: yellowgreen;
+}
+
+.trans1 p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.trans2 {
+    margin: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: palegreen;
+    transition-duration: 1s;
+}
+
+.trans2:hover {
+    transform: rotate(90deg);
+    background-color: yellowgreen;
+}
+
+.trans2 p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.trans3 {
+    margin: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: palegreen;
+    transition-duration: 1s;
+}
+
+.trans3:hover {
+    transform: skew(25deg, -30deg);
+    background-color: yellowgreen;
+}
+
+.trans3 p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
