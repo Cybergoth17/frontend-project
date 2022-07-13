@@ -1,0 +1,55 @@
+img {
+    max-width: 100%;
+}
+
+.twit {
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.comp {
+    width: 30%;
+}
+
+.comp1 {
+    width: 40%;
+}
+
+.abs {
+    margin-top: -200px;
+    margin-left: 80px;
+    max-width: 100%;
+}
+
+.rectangle {
+    background-color: #4C84C3;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.days {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+.hours {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 8px;
+}

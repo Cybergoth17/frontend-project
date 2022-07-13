@@ -235,3 +235,8 @@ h6 {
     color: #FCFCFC;
     font-size: 20px;
 }
+
+.items img {
+    margin-right: 30px;
+    margin-top: -20px;
+}
